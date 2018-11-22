@@ -1,0 +1,21 @@
+nav{
+	height: 40px;
+	width: 100%;
+	display: flex !important;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+	.icon-viewlist{
+		flex: 1;
+		padding-left: 10px;
+	}
+	.icon-viewgallery{
+		flex:1;
+		text-align: right;
+		padding-right: 10px;
+	}
+	span{
+		flex:1;
+		text-align: center;
+	}
+}

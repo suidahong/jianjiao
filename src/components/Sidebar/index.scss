@@ -1,0 +1,36 @@
+aside{
+	height: 50px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+
+	background: #fff;
+	z-index: 100;
+	.ul_aside{
+		display: flex;
+		height: 50px;
+
+		li{
+			flex:1;
+			text-align: center;
+			a{
+				text-decoration: none;
+				color: #000;
+				display: block;
+			}
+		}
+	}
+}
+.active{
+	color: #f5fbd3;
+	background: #fefdf5
+}
+.sidebar_i{
+	display: block;
+	line-height: 25px;
+	padding-top: 5px;
+}
+.sidebar_span{
+	line-height: 20px;
+}
